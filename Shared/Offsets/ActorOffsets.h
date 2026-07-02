@@ -1,0 +1,15 @@
+#pragma once
+#include "Offsets.h"
+
+// Actor System Offsets
+#define OFFSET_ACTOR_POSITION 0x50
+#define OFFSET_ACTOR_ID 0xAC
+#define OFFSET_ACTOR_BITFIELD 0xB0
+#define OFFSET_ACTOR_COMPONENT_ARRAY 0xD8
+#define OFFSET_ACTOR_COMPONENT_COUNT 0xE0
+#define OFFSET_ACTOR_HEALTH 0x280
+#define OFFSET_ACTOR_ALIVE_FLAG 0x1D1
+
+// Actor Validation
+#define OFFSET_XCHG 0x77
+#define PLAYER_FLAG_BYTE 0x24

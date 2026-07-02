@@ -1,0 +1,43 @@
+# Build outputs
+*.exe
+*.dll
+*.sys
+*.pdb
+*.obj
+*.lib
+*.exp
+*.ilk
+*.log
+*.cache
+*.tmp
+
+# Visual Studio
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Driver specific
+*.inf
+*.cat
+*.sys
+*.pdb
+*.dll
+
+# Personal
+*.json
+*.ini
+*.txt
+!OffsetInfo.txt
+!*.md

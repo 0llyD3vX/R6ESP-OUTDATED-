@@ -10,7 +10,7 @@ It was originally built against a specific game's memory layout, but that's not 
 - A **user-mode overlay application** in C++ that talks to the driver, does the world-to-screen math, and draws over the screen using GDI composited on top of a D3D11 swapchain.
 - Some **shared code** (structs, offsets, math, IPC definitions) used by both sides.
 
-The offsets are years out of date at this point and tied to a game version that no longer exists, so none of the actual read-memory functionality works anymore. What's left is really just a reference for the plumbing: driver ↔ user-mode communication, shared memory, and the rendering pipeline.
+The offsets are years out of date (the offset dumper still kinda works so i updated them recently, still wont work though!) at this point and tied to a game version that no longer exists, so none of the actual read-memory functionality works anymore. What's left is really just a reference for the plumbing: driver ↔ user-mode communication, shared memory, and the rendering pipeline.
 
 ## Project layout
 

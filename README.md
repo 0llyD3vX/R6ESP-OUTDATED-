@@ -2,7 +2,7 @@
 
 This is an old solo project I built a while back to learn Windows kernel driver development and DirectX overlay rendering. It's no longer maintained, I'm just uploading it here so the code exists somewhere and isn't lost. I'm not actively working on it anymore and have no plans to update it.
 
-It was originally built against a specific game's memory layout, but that's not really the point of the project. The interesting part was everything underneath: getting a kernel driver talking to a user-mode process, reading memory across privilege boundaries, and rendering an overlay on top of DirectX 11 without hooking the game's own render loop.
+It was originally built against a specific game's memory layout, but that's not really the point of the project. The interesting part was everything underneath: getting a kernel driver talking to a user-mode process, reading memory across privilege boundaries, and rendering an overlay on top of DirectX 11 without hooking the game's own render loop ( BE is a very strong anticheat! Or this code just sucks :p ).
 
 ## What it actually is
 
